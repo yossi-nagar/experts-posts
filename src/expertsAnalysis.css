@@ -1,0 +1,136 @@
+p {
+    margin-bottom: 0;
+}
+
+
+.exp-bio {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.post-container {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.post-container:last-of-type {
+    display: flex;
+    margin-bottom: auto;
+}
+
+.post-container .exp-img {
+    width: 65px;
+    height: 65px;
+    margin-right: 13px;
+}
+
+body.ar .post-container .exp-img {
+    margin-left: 13px;
+}
+
+.post-container .post-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 7px 13px 24px 31px;
+    border-radius: 15px;
+    margin-bottom: 11px;
+}
+
+.post-container .post-header {
+    align-self: flex-end;
+    color: #959595;
+    font-size: 8px;
+    margin-bottom: 5px;
+    direction: ltr;
+}
+
+.post-container .post-content {
+    color: #000;
+    font-size: 11.5px;
+    line-height: 1.4;
+}
+.post-container .post-content p {
+    margin-bottom: 15px;
+}
+
+.post-container .post-content p:last-child {
+    margin-bottom: 0;
+}
+
+.post-img-container {
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.exp-loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    display: none;
+    margin: 0 auto;
+}
+
+.exp-loader.show {
+    display: block;
+}
+
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.exp-disclaimer {
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 375px) {
+    .exp-bio {
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .exp-bio {
+        font-size: 16px;
+    }
+
+    .post-container .post-content-wrapper {
+        padding: 10px 25px 25px 17px;
+        margin-bottom: 20px;
+    }
+
+    .post-container .post-header {
+        font-size: 10px;
+    }
+
+    .post-container .post-content {
+        font-size: 14px;
+    }
+
+    .exp-disclaimer {
+        font-size: 12px;
+    }
+}

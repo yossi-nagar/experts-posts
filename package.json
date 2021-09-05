@@ -10,8 +10,11 @@
     "@types/node": "^12.20.23",
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9",
+    "axios": "^0.21.1",
+    "bent": "^7.3.12",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-infinite-scroll-component": "^6.1.0",
     "react-scripts": "4.0.3",
     "typescript": "^4.4.2",
     "web-vitals": "^1.1.2"
@@ -39,5 +42,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/bent": "^7.3.2",
+    "http-proxy-middleware": "^0.19.1"
   }
 }

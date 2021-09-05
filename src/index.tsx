@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App olderPostsUrl="http://localhost:3000/" />
   </React.StrictMode>,
   document.getElementById('root')
 );
