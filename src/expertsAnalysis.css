@@ -2,6 +2,10 @@ p {
     margin-bottom: 0;
 }
 
+.posts-container {
+    position: relative;
+}
+
 
 .exp-bio {
     font-size: 14px;
