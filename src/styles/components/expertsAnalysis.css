@@ -1,0 +1,30 @@
+
+
+
+
+.exp-bio {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+.exp-disclaimer {
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 375px) {
+    .exp-bio {
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .exp-bio {
+        font-size: 16px;
+    }
+
+    .exp-disclaimer {
+        font-size: 12px;
+    }
+}
